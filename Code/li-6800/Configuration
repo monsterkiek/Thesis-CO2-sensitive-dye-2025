@@ -1,0 +1,1275 @@
+{
+    "ver": 10,
+    "Chamber": {
+        "Function": "Full Fluorometer",
+        "Function_meta": [
+            "Full Fluorometer",
+            "Light Source Only"
+        ],
+        "Chamber": "6800-01A Fluorometer",
+        "Comps": "Complete Gas Ex",
+        "Comps_meta": [
+            "Complete Gas Ex"
+        ],
+        "Insert": "6 cm\u00b2",
+        "Insert_meta": [
+            "6 cm\u00b2",
+            "2 cm\u00b2",
+            "Aquatic Chamber"
+        ],
+        "rev": "0",
+        "sn": "MPF-742843",
+        "id": "6800-01A",
+        "vol": "87.3",
+        "ppfdcal": "0",
+        "pca": "4.3321e-10",
+        "pcb": "1.0215e-05",
+        "head ver": "1.4.23",
+        "head sn": "68H-413429",
+        "console sn": "68C-373441",
+        "cpu_count": 4,
+        "Options": {
+            "Add Dynamic Equations": true
+        },
+        "isAquatic": false,
+        "isInsect": false,
+        "isFlr": true,
+        "isLeaf": true,
+        "isSoil": false,
+        "isDynamic": true
+    },
+    "SysConst": {
+        "AvgTime": 4.0,
+        "Oxygen": 21.0
+    },
+    "EnvFlow": {
+        "licor/li6850/scripts/flow_control/constants": {
+            "Active": true,
+            "Auto": true,
+            "Percent": 100.0,
+            "SetPoint": 400.0,
+            "Units": "\u00b5mol s\u207b\u00b9",
+            "modified_piezo": 1,
+            "pump": "auto",
+            "match_r": 100.0,
+            "match_s": 100.0,
+            "minimum": 350.0,
+            "low": 530.0,
+            "medium": 720.0,
+            "high": 920.0,
+            "Status": 3,
+            "Tab1": "Flow 400.0 \u00b5mol s\u207b\u00b9",
+            "Tab2": "",
+            "Label": "Flow"
+        },
+        "licor/li6850/scripts/press_control/constants": {
+            "Active": true,
+            "Auto": true,
+            "Percent": 0.0,
+            "SetPoint": 0.1,
+            "Status": 3,
+            "Tab1": "",
+            "Tab2": "",
+            "Label": "\u0394P",
+            "Units": "kPa",
+            "Tab3": "\u0394Pcham 0.1 kPa"
+        }
+    },
+    "EnvH2O": {
+        "Active": true,
+        "Type": "Fully-Auto",
+        "Target": "RH_air",
+        "PercentD": "22.8293",
+        "PercentH": "52.8934",
+        "SetPoint": 30.0,
+        "Units": "%",
+        "Status": 2,
+        "Label": "RH_air",
+        "Tab1": "",
+        "Tab2": "RH_air 30.0 %",
+        "Tab3": "",
+        "Teff": 25.1349,
+        "Tefflab": "TleafCnd",
+        "Tlow": 24.7228,
+        "Tlowlab": "Tx",
+        "TIME": 1746517109.6637611
+    },
+    "EnvCO2": {
+        "Active": true,
+        "SetPoint": 400.0,
+        "Auto": true,
+        "Scrub": "auto",
+        "Target": "CO2_r",
+        "Percent": 0.6,
+        "Status": 2,
+        "Label": "CO2_r",
+        "Units": "\u00b5mol mol\u207b\u00b9",
+        "Tab1": "",
+        "Tab2": "CO2_r 400.0 \u00b5mol mol\u207b\u00b9",
+        "Tab3": "",
+        "ExtendedOp": false,
+        "AltConn": 0,
+        "Tank": 2500,
+        "Suppress": false
+    },
+    "EnvFan": {
+        "Active": true,
+        "Auto": true,
+        "SetPoint": 10045,
+        "rpm_setpoint": 10045,
+        "Percent": 30.0,
+        "Target": "RPM",
+        "Units": "rpm",
+        "Status": 2,
+        "Label": "Speed",
+        "Tab1": "",
+        "Tab2": "Speed 10045 rpm",
+        "Tab3": ""
+    },
+    "EnvTemp": {
+        "Active": true,
+        "Auto": true,
+        "SetPoint": 25.0,
+        "Target": "Tair",
+        "Units": "\u00b0C",
+        "T2use": 0,
+        "NeedCorr": false,
+        "Offset": 0,
+        "Offset2": 0,
+        "Nudger": 1,
+        "Status": 2,
+        "Tab1": "",
+        "Tab2": "Tair 25.0 \u00b0C",
+        "Tab3": "",
+        "Label": "Tair",
+        "tleafhold": 0,
+        "TIME": 1746519888.9909601
+    },
+    "EnvLight": {
+        "licor/li6850/scripts/light/constants": {
+            "auto": "true",
+            "open_name": "Sun+Sky",
+            "head_power": false,
+            "console_power": false,
+            "f_flr_set": 1,
+            "f_head_set": 1,
+            "f_console_set": 1,
+            "latest_qin": 0,
+            "fQ_Amb_in": 0.0,
+            "fQ_Amb_out": 0.0,
+            "fQ_HeadLS": 0.0,
+            "fQ_ConsoleLS": 0.0,
+            "fQ_Flr": 1.0
+        },
+        "licor/li6850/scripts/lightsource/li6840": {
+            "control": "off",
+            "Q_setpoint": "50",
+            "color_mix": "0.9 0.1 0",
+            "D_percent": "0 0 90",
+            "transmittance": "1",
+            "Attached": true,
+            "color_spec": "r90B40"
+        },
+        "licor/li6850/scripts/lightsource/li6850": {
+            "control": "off",
+            "Q_setpoint": "0",
+            "color_mix": "}",
+            "D_percent": "0",
+            "transmittance": "1",
+            "Attached": true,
+            "color_spec": "r90"
+        },
+        "licor/li6850/scripts/lightsource/li6860": {
+            "control": "off",
+            "Q_setpoint": "0",
+            "color_mix": "None",
+            "D_percent": "None",
+            "transmittance": "1",
+            "Attached": true,
+            "color_spec": "r90"
+        }
+    },
+    "EnvAuto": {
+        "licor/li6850/scripts/autoenv/1/constants": {
+            "ver": 5,
+            "type": "CO2_r",
+            "time": 10,
+            "prog": 0,
+            "from": 400,
+            "to": 1000,
+            "units": "\u00b5mol mol\u207b\u00b9",
+            "format": [
+                "f",
+                1,
+                2
+            ],
+            "direction": "Forward",
+            "autoRepeat": true,
+            "running": false,
+            "suspendedBy": "",
+            "fct": "linear",
+            "updateInterval": 2,
+            "setPoint": 400.0,
+            "t_offset": 0.0,
+            "t_name": "Tleaf2",
+            "t_label": "Tleaf2",
+            "t_topic": "licor/li6850/output/DATA",
+            "t_group": "Meas",
+            "t_units": "C",
+            "tablabel": "1. CO2_r"
+        },
+        "licor/li6850/scripts/autoenv/2/constants": {
+            "ver": 5,
+            "type": "H2O_r",
+            "time": 10,
+            "prog": 0,
+            "from": 10,
+            "to": 20,
+            "units": "mmol mol\u207b\u00b9",
+            "format": [
+                "f",
+                1,
+                3
+            ],
+            "direction": "Forward",
+            "autoRepeat": true,
+            "running": false,
+            "suspendedBy": "",
+            "fct": "linear",
+            "updateInterval": 2,
+            "setPoint": 10.0,
+            "t_offset": 0.0,
+            "t_name": "Tleaf2",
+            "t_label": "Tleaf2",
+            "t_topic": "licor/li6850/output/DATA",
+            "t_group": "Meas",
+            "t_units": "C",
+            "tablabel": "2. H2O_r"
+        },
+        "licor/li6850/scripts/autoenv/3/constants": {
+            "ver": 5,
+            "type": "Qin",
+            "time": 10,
+            "prog": 0,
+            "from": 100,
+            "to": 2000,
+            "units": "\u00b5mol m\u207b\u00b2 s\u207b\u00b9",
+            "format": [
+                "f",
+                1,
+                1
+            ],
+            "direction": "Forward",
+            "autoRepeat": true,
+            "running": false,
+            "suspendedBy": "",
+            "fct": "linear",
+            "updateInterval": 2,
+            "setPoint": 100.0,
+            "t_offset": 0.0,
+            "t_name": "Tleaf2",
+            "t_label": "Tleaf2",
+            "t_topic": "licor/li6850/output/DATA",
+            "t_group": "Meas",
+            "t_units": "C",
+            "tablabel": "3. Qin"
+        },
+        "licor/li6850/scripts/autoenv/4/constants": {
+            "ver": 5,
+            "type": "Flow",
+            "time": 10,
+            "prog": 0,
+            "from": 100,
+            "to": 1000,
+            "units": "\u00b5mol s\u207b\u00b9",
+            "format": [
+                "f",
+                1,
+                1
+            ],
+            "direction": "Forward",
+            "autoRepeat": true,
+            "running": false,
+            "suspendedBy": "",
+            "fct": "linear",
+            "updateInterval": 2,
+            "setPoint": 100.0,
+            "t_offset": 0.0,
+            "t_name": "Tleaf2",
+            "t_label": "Tleaf2",
+            "t_topic": "licor/li6850/output/DATA",
+            "t_group": "Meas",
+            "t_units": "C",
+            "tablabel": "4. Flow"
+        },
+        "licor/li6850/scripts/autoenv/5/constants": {
+            "ver": 5,
+            "type": "Fan_rpm",
+            "time": 10,
+            "prog": 0,
+            "from": 1000,
+            "to": 7000,
+            "units": "rpm",
+            "format": [
+                "f",
+                1,
+                0
+            ],
+            "direction": "Forward",
+            "autoRepeat": true,
+            "running": false,
+            "suspendedBy": "",
+            "fct": "linear",
+            "updateInterval": 2,
+            "setPoint": 1000.0,
+            "t_offset": 0.0,
+            "t_name": "Tleaf2",
+            "t_label": "Tleaf2",
+            "t_topic": "licor/li6850/output/DATA",
+            "t_group": "Meas",
+            "t_units": "C",
+            "tablabel": "5. Fan_rpm"
+        },
+        "licor/li6850/scripts/autoenv/6/constants": {
+            "ver": 5,
+            "type": "Txchg",
+            "time": 10,
+            "prog": 0,
+            "from": 25,
+            "to": 35,
+            "units": "\u00b0C",
+            "format": [
+                "f",
+                1,
+                2
+            ],
+            "direction": "Forward",
+            "autoRepeat": true,
+            "running": false,
+            "suspendedBy": "",
+            "fct": "linear",
+            "updateInterval": 2,
+            "setPoint": 25.0,
+            "t_offset": 0.0,
+            "t_name": "Tleaf2",
+            "t_label": "Tleaf2",
+            "t_topic": "licor/li6850/output/DATA",
+            "t_group": "Meas",
+            "t_units": "C",
+            "tablabel": "6. Txchg"
+        }
+    },
+    "Flr": {
+        "licor/li6850/scripts/flr/config/darkpulse": {
+            "Q_farred_setpoint": 25.0,
+            "duration": 5.0,
+            "before": 1.0,
+            "after": 1.0,
+            "margin": 0.0
+        },
+        "licor/li6850/scripts/flr/config/inductionflash": {
+            "Q_red_setpoint": "15000",
+            "duration": 1000.0,
+            "margin": 5.0
+        },
+        "licor/li6850/scripts/flr/config/measure": {
+            "dark_modrate": "500 Hz",
+            "light_modrate": "50 kHz",
+            "flash_modrate": "250 kHz",
+            "modon": "On",
+            "_AvgTime": 15.0,
+            "Q_modred_setpoint": 100
+        },
+        "licor/li6850/scripts/flr/config/multiphaseflash": {
+            "Q_red_setpoint": "10000",
+            "phase1_duration": 300.0,
+            "phase2_duration": 300.0,
+            "phase3_duration": 300.0,
+            "ramp": "25",
+            "outrate": "100 Hz",
+            "margin": 5.0
+        },
+        "licor/li6850/scripts/flr/config/rectflash": {
+            "Q_red_setpoint": "10000",
+            "duration": 1000.0,
+            "outrate": "100 Hz",
+            "margin": 5.0
+        },
+        "licor/li6850/scripts/flr/constants": {
+            "Adark": -0.09670090610495762,
+            "Fm": 0.97,
+            "Fo": -0.15269230769230785,
+            "PS2/1": 0.5,
+            "Qmax_d": 10254.1,
+            "DarkAdaptedID": "RECT-3018-20250410-13_13_12"
+        },
+        "licor/li6850/scripts/flr/log_opts/constants": {
+            "FlashType": "Auto: RF or MPF",
+            "FlrLogAction": "0: Nothing",
+            "MinFlashInt": {
+                "checked": false,
+                "value": 120
+            },
+            "Automatic": 50.0,
+            "FlashTypeNum": 0,
+            "FlrLogActionNum": 0
+        }
+    },
+    "Leaf": {
+        "Leaf": "standard",
+        "Ambient": "Sun+Sky",
+        "abs_ambient": 0.8,
+        "abs_redLED": 0.84,
+        "abs_greenLED": 0.7,
+        "abs_blueLED": 0.87,
+        "abs_whiteLED": 0.75,
+        "abs_redFlr": 0.84,
+        "abs_blueFlr": 0.87,
+        "k_ambient": 0.1911,
+        "k_redLED": 0.1512,
+        "k_greenLED": 0.161,
+        "k_blueLED": 0.2262,
+        "k_whiteLED": 0.1575,
+        "k_redFlr": 0.1596,
+        "k_blueFlr": 0.2175
+    },
+    "GasEx": {
+        "licor/li6850/scripts/datacomp/constants": {
+            "S": 6.0,
+            "K": 0.5,
+            "Geometry": "0: Broadleaf",
+            "CustomBLC": 2.0,
+            "Dyn": true
+        },
+        "licor/li6850/scripts/datacomp/constants_leaf": {
+            "deltaTw": 0,
+            "fT1": 1,
+            "fT2": 0,
+            "fTeb": 0,
+            "option": "Measured"
+        }
+    },
+    "Dynamic": {
+        "licor/li6850/scripts/dat/constants": {
+            "co2_slope_threshold": 0.02,
+            "h2o_slope_threshold": 0.005
+        },
+        "licor/li6850/scripts/dat/details/user": {
+            "chamber": "6800-01A",
+            "user": {
+                "co2": [
+                    [
+                        400.0,
+                        662.0,
+                        3.6,
+                        2.36,
+                        65.76,
+                        -0.266,
+                        0.094,
+                        "2024Sep27_0937_400_658.txt"
+                    ]
+                ],
+                "h2o": []
+            }
+        }
+    },
+    "UsrDef": {
+        "licor/li6850/scripts/userdefvars/state": [
+            {
+                "name": "exp type",
+                "kind": 0,
+                "description": "",
+                "units": "",
+                "format": [
+                    "s",
+                    1,
+                    2
+                ],
+                "default": "",
+                "logreset": false,
+                "header": false
+            },
+            {
+                "name": "DyeType",
+                "kind": 0,
+                "description": "",
+                "units": "",
+                "format": [
+                    "s",
+                    1,
+                    2
+                ],
+                "default": "",
+                "logreset": true,
+                "header": false
+            },
+            {
+                "name": "material",
+                "kind": 0,
+                "description": "",
+                "units": "",
+                "format": [
+                    "s",
+                    1,
+                    2
+                ],
+                "default": "",
+                "logreset": false,
+                "header": false
+            }
+        ],
+        "licor/li6850/scripts/userdefcons": {
+            "exp type": "",
+            "DyeType": "",
+            "material": ""
+        }
+    },
+    "Stability": {
+        "Adyn.Dynamic.licor/li6850/scripts/dat": {
+            "Period": 30,
+            "SlpOn": 1,
+            "SlpLim": 0.5,
+            "StdOn": 1,
+            "StdLim": 0.4,
+            "label": "Adyn",
+            "units": "\u00b5mol m\u207b\u00b2 s\u207b\u00b9"
+        },
+        "gsw.GasEx.licor/li6850/computed/DATACOMP": {
+            "Period": 30,
+            "SlpOn": 1,
+            "SlpLim": 0.05,
+            "StdOn": 1,
+            "StdLim": 0.1,
+            "label": "gsw",
+            "units": "mol m\u207b\u00b2 s\u207b\u00b9"
+        }
+    },
+    "LogOpts": {
+        "MakeExcel": true,
+        "AvgTime": {
+            "checked": false,
+            "value": 15
+        },
+        "HeaderList": {
+            "Const:S": false,
+            "Const:K": false,
+            "Const:Geometry": false,
+            "Const:CustomBLC": false,
+            "Const:Dyn": false
+        },
+        "GroupList": {
+            "Auxiliary": true,
+            "Meas2": true,
+            "MPF": true,
+            "FastKntcs": true,
+            "Raw": true,
+            "Stability": true,
+            "Status2": true
+        },
+        "Beep": false,
+        "AutoName": true,
+        "PromptOnLog": false,
+        "MarkGraphs": true,
+        "OverApp": "Ask"
+    },
+    "Match": {
+        "MatchOptName": "Never match",
+        "MatchOptNum": 0,
+        "MCTime": {
+            "checked": true,
+            "value": 10
+        },
+        "MCDelta": {
+            "checked": false,
+            "value": 10.0
+        },
+        "MCAbs": {
+            "checked": false,
+            "value": 100.0
+        },
+        "MatchOptNameH": "Never match",
+        "MatchOptNumH": 0,
+        "MHTime": {
+            "checked": true,
+            "value": 10.0
+        },
+        "MHDelta": {
+            "checked": false,
+            "value": 1
+        },
+        "MHAbs": {
+            "checked": false,
+            "value": 10
+        }
+    },
+    "Aux": {
+        "licor/li6850/scripts/aux_power/constants": {
+            "AuxPower": 0.0
+        },
+        "licor/li6850/scripts/dacs/constants": {
+            "dac1": 0.0,
+            "dac2": 0.0,
+            "dac3": 0.0,
+            "dac4": 0.0
+        },
+        "licor/li6850/scripts/gpio/constants": {
+            "GPIO": "00000000",
+            "GPIO_dir": "iiiiiiii",
+            "io1": "input",
+            "io2": "input",
+            "io3": "input",
+            "io4": "input",
+            "io5": "input",
+            "io6": "input",
+            "io7": "input",
+            "io8": "input",
+            "excitation_5v": "off",
+            "power_12v": "off",
+            "power_5v": "off",
+            "adc_ch1_pullup": "off"
+        }
+    },
+    "Grids": {
+        "grid1": {
+            "gridsize": "4col3row",
+            "gridvars": [
+                "licor/li6850/computed/DATACOMP::A",
+                "licor/li6850/output/DATA::CO2_r",
+                "licor/li6850/output/DATA::CO2_s",
+                "licor/li6850/computed/DATACOMP::Ci",
+                "licor/li6850/computed/DATACOMP::E",
+                "licor/li6850/output/DATA::H2O_r",
+                "licor/li6850/output/DATA::H2O_s",
+                "licor/li6850/computed/DATACOMP::gsw",
+                "licor/li6850/scripts/datacomp/constants::Dyn",
+                "licor/li6850/scripts/leafq/data::Qin",
+                "licor/li6850/output/DATA::Flow_s",
+                "licor/li6850/computed/DATACOMP::RHcham"
+            ]
+        },
+        "grid2": {
+            "gridsize": "4col3row",
+            "gridvars": [
+                "licor/li6850/scripts/dat::Adyn",
+                "licor/li6850/computed/DATACOMP::Asty",
+                "licor/li6850/output/DATA::CO2_d",
+                "::",
+                "licor/li6850/scripts/dat::Edyn",
+                "licor/li6850/computed/DATACOMP::Esty",
+                "licor/li6850/output/DATA::H2O_d",
+                "licor/li6850/scripts/datacomp/constants::S",
+                "licor/li6850/scripts/datacomp/constants::Dyn",
+                "licor/li6850/output/DATA::Flow",
+                "licor/li6850/output/DATA::Flow_r",
+                "licor/li6850/output/DATA::Flow_s"
+            ]
+        },
+        "grid3": {
+            "gridsize": "4col3row",
+            "gridvars": [
+                "licor/li6850/output/DATA::Tleaf",
+                "licor/li6850/output/DATA::Tleaf2",
+                "licor/li6850/computed/DATACOMP::TleafEB",
+                "licor/li6850/computed/DATACOMP::TleafCnd",
+                "licor/li6850/output/DATA::Tchamber",
+                "licor/li6850/output/DATA::Tirga_block",
+                "licor/li6850/output/DATA::Txchg",
+                "licor/li6850/computed/DATACOMP::VPDleaf",
+                "licor/li6850/scripts/leafq/data::Qin",
+                "licor/li6850/scripts/leafq/data::alpha",
+                "licor/li6850/scripts/leafq/data::Qabs",
+                "licor/li6850/output/DATA::PPFD_out"
+            ]
+        },
+        "grid4": {
+            "gridsize": "4col3row",
+            "gridvars": [
+                "licor/li6840/output/DATA::FLUOR",
+                "licor/li6850/scripts/flr/stats::dF/dt",
+                "licor/li6850/scripts/flr/stats::F_avg",
+                "::",
+                "licor/li6850/scripts/flr/comps::Fo",
+                "licor/li6850/scripts/flr/comps::Fm",
+                "licor/li6850/scripts/flr/comps::Fv/Fm",
+                "::",
+                "licor/li6850/computed/DATACOMP::A",
+                "licor/li6850/computed/DATACOMP::RHcham",
+                "licor/li6850/computed/DATACOMP::TleafCnd",
+                "licor/li6850/output/DATA::Flow"
+            ]
+        },
+        "grid5": {
+            "gridsize": "4col3row",
+            "gridvars": [
+                "licor/li6840/output/DATA::FLUOR",
+                "licor/li6850/scripts/flr/stats::dF/dt",
+                "::",
+                "::",
+                "licor/li6850/scripts/flr/comps::Fs",
+                "licor/li6850/scripts/flr/comps::Fmp",
+                "licor/li6850/scripts/flr/comps::Fvp",
+                "licor/li6850/scripts/flr/comps::Fop",
+                "licor/li6850/scripts/flr/comps::PhiPS2",
+                "licor/li6850/scripts/flr/comps::ETR",
+                "licor/li6850/scripts/flr/comps::PhiCO2",
+                "licor/li6850/scripts/flr/comps::Fvp/Fmp"
+            ]
+        },
+        "grid6": {
+            "gridsize": "4col3row",
+            "gridvars": [
+                "licor/li6850/scripts/flr/comps::qP",
+                "licor/li6850/scripts/flr/comps::qN",
+                "licor/li6850/scripts/flr/comps::NPQ",
+                "licor/li6850/scripts/flr/comps::Fo",
+                "licor/li6850/scripts/flr/comps::qP_Fo",
+                "licor/li6850/scripts/flr/comps::qN_Fo",
+                "::",
+                "licor/li6850/scripts/flr/comps::Fv/Fm",
+                "::",
+                "licor/li6850/scripts/flr/comps::Fvp/Fmp",
+                "licor/li6850/scripts/flr/comps::PhiPS2",
+                "licor/li6850/scripts/flr/comps::PhiCO2"
+            ]
+        },
+        "grid7": {
+            "gridsize": "4col3row",
+            "gridvars": [
+                "licor/li6850/output/DATA::Press",
+                "licor/li6850/output/DATA::Pchamber",
+                "::",
+                "::",
+                "licor/li6850/scripts/match/state::co2_elapsed",
+                "licor/li6850/scripts/match/state::h2o_elapsed",
+                "::",
+                "::",
+                "licor/li6850/scripts/match/state::MatchCO2",
+                "licor/li6850/scripts/match/state::MatchH2O",
+                "::",
+                "::"
+            ]
+        },
+        "grid8": {
+            "gridsize": "4col3row",
+            "gridvars": [
+                "licor/li6850/output/DATASTAT::Desiccant_percent",
+                "licor/li6850/output/DATASTAT::Humidifier_percent",
+                "licor/li6850/output/DATASTAT::CO2_percent",
+                "::",
+                "licor/li6850/scripts/integratedflow/data::AccH2O_des",
+                "licor/li6850/scripts/integratedflow/data::AccH2O_hum",
+                "licor/li6850/scripts/integratedflow/data::AccCO2_soda",
+                "::",
+                "licor/li6850/output/DATASTAT::SS_b",
+                "licor/li6850/output/DATASTAT::SS_a",
+                "licor/li6850/scripts/integratedflow/data::CO2_hrs",
+                "::"
+            ]
+        }
+    },
+    "Graphs": {
+        "graph1": {
+            "curves": [
+                {
+                    "axis": "yleft",
+                    "logTopic": "licor/li6850/logged/Dynamic",
+                    "name": "Adyn",
+                    "settings": {
+                        "pen": [
+                            "#9c268f",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/scripts/dat"
+                },
+                {
+                    "axis": "yright",
+                    "logTopic": "licor/li6850/logged/GasEx",
+                    "name": "gsw",
+                    "settings": {
+                        "pen": [
+                            "#77bd43",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/computed/DATACOMP"
+                },
+                {
+                    "axis": "yleft",
+                    "logTopic": "licor/li6850/logged/GasEx",
+                    "name": "Asty",
+                    "settings": {
+                        "pen": [
+                            "#00a7df",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/computed/DATACOMP"
+                }
+            ],
+            "legends": true,
+            "scaling": {
+                "xbottom": {
+                    "delta": 0.0,
+                    "max": 0.0,
+                    "min": 0.0,
+                    "type": "Autoscale"
+                },
+                "yleft": {
+                    "delta": 4.0,
+                    "max": 0.0,
+                    "min": 0.0,
+                    "type": "Autoscale"
+                },
+                "yright": {
+                    "delta": 0.2,
+                    "max": 0.0,
+                    "min": 0.0,
+                    "type": "Autoscale"
+                }
+            },
+            "xaxis": {
+                "axis": "xbottom",
+                "logTopic": "licor/li6850/logged/Meas",
+                "name": "TIME",
+                "topic": "licor/li6850/output/DATA"
+            }
+        },
+        "graph2": {
+            "curves": [
+                {
+                    "axis": "yleft",
+                    "logTopic": "licor/li6850/logged/GasEx",
+                    "name": "Ci",
+                    "settings": {
+                        "pen": [
+                            "#9c268f",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/computed/DATACOMP"
+                },
+                {
+                    "axis": "yright",
+                    "logTopic": "licor/li6850/logged/GasEx",
+                    "name": "E",
+                    "settings": {
+                        "pen": [
+                            "#77bd43",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/computed/DATACOMP"
+                }
+            ],
+            "legends": true,
+            "scaling": {
+                "xbottom": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                },
+                "yleft": {
+                    "delta": 4,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                },
+                "yright": {
+                    "delta": 0.2,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                }
+            },
+            "xaxis": {
+                "axis": "xbottom",
+                "logTopic": "licor/li6850/logged/Meas",
+                "name": "TIME",
+                "topic": "licor/li6850/output/DATA"
+            }
+        },
+        "graph3": {
+            "curves": [
+                {
+                    "axis": "yleft",
+                    "logTopic": "licor/li6850/logged/Meas",
+                    "name": "CO2_r",
+                    "settings": {
+                        "pen": [
+                            "#9c268f",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/output/DATA"
+                },
+                {
+                    "axis": "yleft",
+                    "logTopic": "licor/li6850/logged/Meas",
+                    "name": "CO2_s",
+                    "settings": {
+                        "pen": [
+                            "#77bd43",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/output/DATA"
+                }
+            ],
+            "legends": true,
+            "scaling": {
+                "xbottom": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                },
+                "yleft": {
+                    "delta": 10,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                },
+                "yright": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                }
+            },
+            "xaxis": {
+                "axis": "xbottom",
+                "logTopic": "licor/li6850/logged/Meas",
+                "name": "TIME",
+                "topic": "licor/li6850/output/DATA"
+            }
+        },
+        "graph4": {
+            "curves": [
+                {
+                    "axis": "yleft",
+                    "logTopic": "licor/li6850/logged/Meas",
+                    "name": "H2O_r",
+                    "settings": {
+                        "pen": [
+                            "#9c268f",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/output/DATA"
+                },
+                {
+                    "axis": "yleft",
+                    "logTopic": "licor/li6850/logged/Meas",
+                    "name": "H2O_s",
+                    "settings": {
+                        "pen": [
+                            "#77bd43",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/output/DATA"
+                }
+            ],
+            "legends": true,
+            "scaling": {
+                "xbottom": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                },
+                "yleft": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                },
+                "yright": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                }
+            },
+            "xaxis": {
+                "axis": "xbottom",
+                "logTopic": "licor/li6850/logged/Meas",
+                "name": "TIME",
+                "topic": "licor/li6850/output/DATA"
+            }
+        },
+        "graph5": {
+            "curves": [
+                {
+                    "axis": "yleft",
+                    "logTopic": "licor/li6850/logged/GasEx",
+                    "name": "RHcham",
+                    "settings": {
+                        "pen": [
+                            "#9c268f",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/computed/DATACOMP"
+                }
+            ],
+            "legends": true,
+            "scaling": {
+                "xbottom": {
+                    "delta": 0.0,
+                    "max": 0.0,
+                    "min": 0.0,
+                    "type": "Autoscale"
+                },
+                "yleft": {
+                    "delta": 2.0,
+                    "max": 0.0,
+                    "min": 0.0,
+                    "type": "Autoscale"
+                },
+                "yright": {
+                    "delta": 0.0,
+                    "max": 0.0,
+                    "min": 0.0,
+                    "type": "Autoscale"
+                }
+            },
+            "xaxis": {
+                "axis": "xbottom",
+                "logTopic": "licor/li6850/logged/Meas",
+                "name": "TIME",
+                "topic": "licor/li6850/output/DATA"
+            }
+        },
+        "graph6": {
+            "curves": [
+                {
+                    "axis": "yleft",
+                    "logTopic": "licor/li6850/logged/FlrLS",
+                    "name": "FLUOR",
+                    "settings": {
+                        "pen": [
+                            "#9c268f",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6840/output/DATA"
+                }
+            ],
+            "legends": true,
+            "scaling": {
+                "xbottom": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                },
+                "yleft": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                },
+                "yright": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                }
+            },
+            "xaxis": {
+                "axis": "xbottom",
+                "logTopic": "licor/li6850/logged/Meas",
+                "name": "TIME",
+                "topic": "licor/li6850/output/DATA"
+            }
+        },
+        "graph7": {
+            "curves": [
+                {
+                    "axis": "yleft",
+                    "logTopic": "licor/li6850/logged/GasEx",
+                    "name": "A",
+                    "settings": {
+                        "pen": [
+                            "#9c268f",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/computed/DATACOMP"
+                },
+                {
+                    "axis": "yright",
+                    "logTopic": "licor/li6850/logged/FLR",
+                    "name": "ETR",
+                    "settings": {
+                        "pen": [
+                            "#77bd43",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/scripts/flr/comps"
+                }
+            ],
+            "legends": true,
+            "scaling": {
+                "xbottom": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                },
+                "yleft": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                },
+                "yright": {
+                    "delta": 0,
+                    "max": 0,
+                    "min": 0,
+                    "type": "Autoscale"
+                }
+            },
+            "xaxis": {
+                "axis": "xbottom",
+                "logTopic": "licor/li6850/logged/LeafQ",
+                "name": "Qabs",
+                "topic": "licor/li6850/scripts/leafq/data"
+            }
+        },
+        "graph8": {
+            "curves": [
+                {
+                    "axis": "yleft",
+                    "logTopic": "licor/li6850/logged/GasEx",
+                    "name": "A",
+                    "settings": {
+                        "pen": [
+                            "#9c268f",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/computed/DATACOMP"
+                },
+                {
+                    "axis": "yright",
+                    "logTopic": "licor/li6850/logged/FLR",
+                    "name": "ETR",
+                    "settings": {
+                        "pen": [
+                            "#77bd43",
+                            1.0,
+                            "Solid"
+                        ],
+                        "symbol": [
+                            "Diamond",
+                            12
+                        ]
+                    },
+                    "topic": "licor/li6850/scripts/flr/comps"
+                }
+            ],
+            "legends": true,
+            "scaling": {
+                "xbottom": {
+                    "delta": 0.0,
+                    "max": 0.0,
+                    "min": 0.0,
+                    "type": "Autoscale"
+                },
+                "yleft": {
+                    "delta": 5.0,
+                    "max": 0.0,
+                    "min": 0.0,
+                    "type": "Autoscale"
+                },
+                "yright": {
+                    "delta": 0.0,
+                    "max": 0.0,
+                    "min": 0.0,
+                    "type": "Autoscale"
+                }
+            },
+            "xaxis": {
+                "axis": "xbottom",
+                "logTopic": "licor/li6850/logged/GasEx",
+                "name": "Ci",
+                "topic": "licor/li6850/computed/DATACOMP"
+            }
+        }
+    }
+}

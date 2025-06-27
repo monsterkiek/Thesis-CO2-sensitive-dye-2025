@@ -1,0 +1,241 @@
+{
+  "device_name": "MultispeQ",
+  "device_version": "2",
+  "device_id": "08:8d:46:f4",
+  "device_battery": 100,
+  "device_firmware": 2.311,
+  "sample": [
+    {
+      "ri": [
+        0,
+        841
+      ],
+      "protocol_id": "",
+      "set": [
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4984
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4970
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4971
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4964
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4972
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4970
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4969
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4967
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4967
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4969
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4961
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4968
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4970
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4958
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4970
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4969
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4962
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4972
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4960
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4966
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4968
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4973
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4966
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4966
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4965
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4965
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4965
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4964
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4973
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            4958
+          ]
+        }
+      ]
+    }
+  ],
+  "name": "test",
+  "notes": "change timing",
+  "created_at": "2025-04-15T11:14:38.338355+02:00",
+  "protocol": [
+    {
+      "share": 1,
+      "_protocol_set_": [
+        {
+          "label": "Absorbance 590nm",
+          "pulses": [
+            1
+          ],
+          "pulse_distance": [
+            120
+          ],
+          "pulsed_lights_brightness": [
+            [
+              15000
+            ]
+          ],
+          "pulse_length": [
+            [
+              150
+            ]
+          ],
+          "pulsed_lights": [
+            [
+              3
+            ]
+          ],
+          "detectors": [
+            [
+              3
+            ]
+          ],
+          "measurements": 30,
+          "measurements_delay": 120
+        }
+      ]
+    }
+  ],
+  "md5_protocol": "38301af3beb5197634001e1699ca140a",
+  "md5_measurement": "a40f627cb0892d9399bc2f537c40d1a7"
+}

@@ -1,0 +1,121 @@
+{
+  "device_name": "MultispeQ",
+  "device_version": "2",
+  "device_id": "08:8d:46:f4",
+  "device_battery": 99,
+  "device_firmware": 2.311,
+  "sample": [
+    {
+      "ri": [
+        0,
+        761
+      ],
+      "protocol_id": "",
+      "set": [
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            53
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            58
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            60
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            60
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            55
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            56
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            60
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            57
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            60
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            54
+          ]
+        }
+      ]
+    }
+  ],
+  "name": "2025-03-21_1342",
+  "notes": "",
+  "created_at": "2025-03-21T13:42:09.973519+01:00",
+  "protocol": [
+    {
+      "share": 1,
+      "_protocol_set_": [
+        {
+          "label": "Absorbance 590nm",
+          "pulses": [
+            1
+          ],
+          "pulse_distance": [
+            1190
+          ],
+          "pulsed_lights_brightness": [
+            [
+              100
+            ]
+          ],
+          "pulse_length": [
+            [
+              100
+            ]
+          ],
+          "pulsed_lights": [
+            [
+              3
+            ]
+          ],
+          "detectors": [
+            [
+              3
+            ]
+          ],
+          "measurements": 10,
+          "measurements_delay": 1200
+        }
+      ]
+    }
+  ],
+  "md5_protocol": "176226503e47efe3734ee309badcd808",
+  "md5_measurement": "8ecd963046ba8964c3d6ad0439636667"
+}

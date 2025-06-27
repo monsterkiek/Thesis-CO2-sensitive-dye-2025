@@ -1,0 +1,1261 @@
+{
+  "device_name": "MultispeQ",
+  "device_version": "2",
+  "device_id": "08:8d:46:f4",
+  "device_battery": 99,
+  "device_firmware": 2.311,
+  "sample": [
+    {
+      "ri": [
+        0,
+        930
+      ],
+      "protocol_id": "",
+      "set": [
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            79
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            95
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            99
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            97
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            96
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            97
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            95
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            108
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            108
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            99
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            107
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            99
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            99
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            96
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            106
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            106
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            97
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            97
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            107
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            97
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            96
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            99
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            97
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            99
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            106
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            107
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            99
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            106
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            106
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            106
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            106
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            107
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            106
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            105
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            100
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            106
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            103
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            104
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            98
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            101
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            102
+          ]
+        }
+      ]
+    }
+  ],
+  "name": "test",
+  "notes": "change timing",
+  "created_at": "2025-04-08T10:18:24.231574+02:00",
+  "protocol": [
+    {
+      "share": 1,
+      "_protocol_set_": [
+        {
+          "label": "Absorbance 590nm",
+          "pulses": [
+            1
+          ],
+          "pulse_distance": [
+            12
+          ],
+          "pulsed_lights_brightness": [
+            [
+              15000
+            ]
+          ],
+          "pulse_length": [
+            [
+              150
+            ]
+          ],
+          "pulsed_lights": [
+            [
+              3
+            ]
+          ],
+          "detectors": [
+            [
+              3
+            ]
+          ],
+          "measurements": 200,
+          "measurements_delay": 12
+        }
+      ]
+    }
+  ],
+  "md5_protocol": "5872111c4b68c90fc3a5e5fcc69831f8",
+  "md5_measurement": "6012c91dced8459cec25c7d656c2f90b"
+}

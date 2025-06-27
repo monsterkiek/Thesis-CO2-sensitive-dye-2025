@@ -1,0 +1,91 @@
+{
+  "device_name": "MultispeQ",
+  "device_version": "2",
+  "device_id": "08:8d:46:f4",
+  "device_battery": 100,
+  "device_firmware": 2.311,
+  "sample": [
+    {
+      "ri": [
+        0,
+        761
+      ],
+      "protocol_id": "",
+      "set": [
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            16
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            18
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            14
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            17
+          ]
+        },
+        {
+          "label": "Absorbance 590nm",
+          "data_raw": [
+            20
+          ]
+        }
+      ]
+    }
+  ],
+  "name": "2025-03-20_1920",
+  "notes": "",
+  "created_at": "2025-03-20T19:20:08.016503+01:00",
+  "protocol": [
+    {
+      "share": 1,
+      "_protocol_set_": [
+        {
+          "label": "Absorbance 590nm",
+          "pulses": [
+            1
+          ],
+          "pulse_distance": [
+            110090
+          ],
+          "pulsed_lights_brightness": [
+            [
+              -100
+            ]
+          ],
+          "pulse_length": [
+            [
+              10
+            ]
+          ],
+          "pulsed_lights": [
+            [
+              3
+            ]
+          ],
+          "detectors": [
+            [
+              3
+            ]
+          ],
+          "measurements": 5,
+          "measurements_delay": 12000
+        }
+      ]
+    }
+  ],
+  "md5_protocol": "d69f7c88a6d848662d5f4b57cfb1ed72",
+  "md5_measurement": "8accd56ea605b907aaa9d7d9da3711a6"
+}
