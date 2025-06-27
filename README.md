@@ -6,5 +6,5 @@ dye (ortho-cresolphthalein), developed by Mills group at Queen’s university Be
 
 Measuring photosynthesis with the CO2-sensitive dye will allow tracking of much faster
 change in direct proximity to the leaf which ultimately would translate in high-throughput
-measurements. High throughput carbon assimilation measurements would open the possibility of selecting for those photosynthetic traits. Within plant breeding programs this would allow slection on potential yield gains currently remaining unharnessed.
+measurements. High throughput carbon assimilation measurements would open the possibility of selecting for those photosynthetic traits. Within plant breeding programs this would allow selection on potential yield gains currently remaining unharnessed.
 
