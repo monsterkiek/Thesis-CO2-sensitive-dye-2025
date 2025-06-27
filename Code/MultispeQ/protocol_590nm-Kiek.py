@@ -12,12 +12,12 @@ _protocol = [
                 "pulses": [
                     1
                 ],
-                "pulse_distance": [
-                    1205
+                "pulse_distance": [  
+                    120500        # same as measurement_delay
                 ],
                 "pulsed_lights_brightness": [
                     [
-                        15000  # max -2000, withou minus works in micrimol of light
+                        15000      # micrimol of light
                     ]
                 ],
                 "pulse_length": [
@@ -36,7 +36,7 @@ _protocol = [
                     ]
                 ],
                 "measurements": 10,
-                "measurements_delay": 1205  # 120500 ms - 1000 us for pulse distance check if needed
+                "measurements_delay": 120500  # 120500 ms - 1000 us for pulse distance check if needed
             }
         ]
     }
